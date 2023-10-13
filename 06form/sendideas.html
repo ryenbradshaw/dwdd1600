@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+            <title>Ryen Bradshaw Porfolio: Home</title>
+            <link rel="stylesheet" href="portfolio.css">
+            
+            <meta charset="UTF-8">
+            <meta name="description" content="Ryen Bradshaw Porfolio">
+            <meta name="author" content="Ryen Bradshaw">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>Ryen Bradshaw Portfolio</h1>
+            <p>Creative Thinking Never Ends</p>
+        </header>
+        <!-- Start of the page header -->
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="myinspiration.html">My Inspiration</a></li>
+                 <li><a href="mywork.html">My Work</a></li>
+                <li class="active"><a href="sendideas.html">Send Ideas</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page header -->
+        <main>
+        <h1>Send me Ideas!</h1>
+            <form method="get" class="myForm" action="thanks.html">
+                
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="tel" required placeholder="987-555-1234"></label>
+            <label>Email Address*<input type="text" name="email" required></label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Questions about your Idea</legend>    
+                <label><input type="radio" name="art style" value="2D">Physical 2D Piece (Drawing or Painting) </label>
+                 <label><input type="radio" name="art style" value="3D">Physical 3D Piece (Sculpture or Relief)</label>
+                 <label><input type="radio" name="art style" value="digital">Digital Piece (Adobe programs, Photography)</label>
+            </fieldset>
+                
+            <fieldset>
+            <legend>Idea Purpose</legend>
+                <label><input type="checkbox" name="inspiration only" value="chosen"> Inspiration Only</label>
+                <label><input type="checkbox" name="create" value="chosen"> Can Create and Sell</label>
+                <label><input type="checkbox" name="for me" value="for me"> Only Create for Me</label>
+                <label><input type="checkbox" name="improve" value="improve"> Improve an already created Piece</label>
+                
+                <label>Preferred Due Date
+                <select name="timeframe">
+                <option value="none">Please Select</option>
+                <option value="asap">ASAP</option>
+                <option value="1 week">In 1 Week</option>
+                <option value="2 weeks">In 2 Weeks</option>
+                <option value="1 Month">In 1 Month</option>
+                <option value="No Time Frame">No Time Frame</option>
+                </select>
+                </label>
+                
+            </fieldset>
+                
+            <label>Comments
+            <textarea name="comments">Please add your thought process here!</textarea>    
+            </label>
+                
+                
+                
+            <input type="submit" value="Send Idea Request"> 
+            </form>
+        </main>
+         <!-- Start of the page header -->
+        <footer>
+        <p>&copy; 2023 &bull; Ryen Bradshaw &bull; <a href="mailto:bradshawryen@gmail.com">Email Me</a></p>
+        </footer>
+    
+    </body>
+    </html>

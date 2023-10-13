@@ -1,0 +1,195 @@
+body {
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    
+}
+
+/* header stuff here */
+header {
+    background-color: #fcf6ef;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+    color: #0f3e70;
+}
+header p {
+    margin: 0;
+    color: #0f3e70;
+    letter-spacing: .5px;
+}
+/* nav stuff goes here */
+nav {
+    background-color: #bbcf9b;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #0f3e70;
+    font-weight: 800;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #0f3e70;
+    color: #bbcf9b;
+}
+nav a:hover {
+    color: #fcf6ef;
+}
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #0f3e70;
+}
+main h2 {
+    color: #498b6d;
+    margin: 3rem 0 0.2rem;
+}
+main p {
+    color: #0f3e70;
+    margin: 3rem 0 3rem 0;
+}
+main ol {
+    color: #0f3e70;
+    padding: .5rem 3vw;
+    background-color: #c7dbe2;
+    border: 1px solid #0f3e70;
+}
+main dl dt {
+    color: #0f3e70;
+    font-size: 1.1rem;
+}
+main dl dd {
+    color: #0f3e70;
+    font-size: .9rem;
+}
+main ul {
+    color: #0f3e70;
+    margin: 2rem 0 0 0;
+    padding: .7rem 3vw .3rem;
+    list-style-type: circle;
+    background-color: #c7dbe2;
+    border: 1px solid #0f3e70;
+}
+main ul li {
+    color: #0f3e70;
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    margin: 2rem 0 0 0;
+    background-color: #c7dbe2;
+    color: #0f3e70;
+    padding: .5rem;
+    border: 1px solid #0f3e70;
+}
+main a {
+    color: #0f3e70;
+}
+main a:hover {
+    color: #498b6d;
+}
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption{
+    text-align: center;
+    font-size: 1rem;
+    color: #0f3e70;
+    clear: both;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #0f3e70;
+}
+
+.myForm fieldset {
+    border: 1px solid  #498b6d;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #498b6d;
+    font-size: .8rem
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+    border: solid 1px #498b6d;
+    padding: .3rem;
+    width: 25px;
+    border-radius: .3rem;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 400;
+}
+
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: #fcf6ef;
+}
+
+.myForm [type=submit] {
+    background-color: #0f3e70;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #fcf6ef;
+    margin: 1rem 0 0 .7vw;
+}
+
+/* footer stuff here */
+footer {
+    background-color: #fcf6ef;
+    text-align: center;
+    color: #0f3e70;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear: both; 
+}
+footer a {
+    color: #0f3e70;
+}
+footer a:hover {
+    color: #498b6d;
+}
