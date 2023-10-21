@@ -129,12 +129,12 @@ div.gallery figure {
 
 div.gallery figcaption {
     text-align: center;
-    font-size: .8rem;
+    font-size: 1rem;
     color: #0f3e70;
 }
 
 .myForm fieldset {
-    border: 1px solid  #498b6d;
+    border: 2px solid  #498b6d;
     border-radius: 3px;
     margin-bottom: 1rem;
 }
@@ -153,9 +153,9 @@ div.gallery figcaption {
 }
 
 .myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
-    border: solid 1px #498b6d;
-    padding: .3rem;
-    width: 25px;
+    border: solid 2px #498b6d;
+    padding: .4rem;
+    width: 200px;
     border-radius: .3rem;
     font-family: 'Noto Sans Georgian', sans-serif;
     font-weight: 400;
@@ -163,6 +163,7 @@ div.gallery figcaption {
 
 .myForm textarea {
     height: 6rem;
+    width: 25rem;
 }
 
 .myForm :required {
@@ -176,6 +177,7 @@ div.gallery figcaption {
     border-radius: 10px;
     color: #fcf6ef;
     margin: 1rem 0 0 .7vw;
+    font-size: .9rem;
 }
 
 /* footer stuff here */
